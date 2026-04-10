@@ -12,6 +12,7 @@
 * - outline   : Array<Real>   What is outline color [ 0, 0, 0, 1 ] for black.
 * - debug     : Array<Real>   What is debug color for padding [ 0, 0, 0, 0 ] to non-visible.
 * - offsets   : Array<Real>   List of neighbour xy-checks for outline [ 1, 0 ] for single check.
+* - count     : Real          If larger array of offsets, can get smaller slice 
 * }
 * 
 * OBS!
@@ -54,7 +55,9 @@ function quadPatPatSet(_config={ })
   var _colorOutline = _config[$ "outline"]    ?? defaultColorOutline;
   var _colorDebug   = _config[$ "debug"]      ?? defaultColorDebug;
   var _offsets      = _config[$ "offsets"]    ?? defaultOffsets;
-  var _offsetCount  = min(MAX_NEIGHBOURS, array_length(_offsets));
+  var _count        = _config[$ "count"]      ?? infinity;
+  _count = floor(_count / 2) * 2;
+  var _offsetCount  = min(MAX_NEIGHBOURS, _count, array_length(_offsets));
   array_copy(offsetUniforms, 0, _offsets, 0, _offsetCount);
   
   
@@ -72,7 +75,7 @@ function quadPatPatSet(_config={ })
   shader_set_uniform_f_array(FSH_colorDebug,    _colorDebug);
   shader_set_uniform_f_array(FSH_offsets,       offsetUniforms);
   
-  shader_set_uniform_f(FSH_offsetCount, _offsetCount);
+  shader_set_uniform_i(FSH_offsetCount, _offsetCount);
   shader_set_uniform_f(FSH_threshold,   _threshold);
 }
 
