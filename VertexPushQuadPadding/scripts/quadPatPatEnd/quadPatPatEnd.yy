@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"quadPatPatEnd",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"quadPatPatEnd",
+  "parent":{
+    "name":"quadPatPat",
+    "path":"folders/quadPatPat.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

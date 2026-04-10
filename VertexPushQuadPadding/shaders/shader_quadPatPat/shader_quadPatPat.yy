@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shader_quadPatPat",
+  "name":"shader_quadPatPat",
+  "parent":{
+    "name":"quadPatPat",
+    "path":"folders/quadPatPat.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

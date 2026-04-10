@@ -1,0 +1,47 @@
+{
+  "$GMProject":"v1",
+  "%Name":"VertexPushQuadPadding",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"quadPatPat - Example","folderPath":"folders/quadPatPat - Example.yy","name":"quadPatPat - Example","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"quadPatPat","folderPath":"folders/quadPatPat.yy","name":"quadPatPat","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.14.4.222",
+  },
+  "name":"VertexPushQuadPadding",
+  "resources":[
+    {"id":{"name":"obejct_quadPatPat_example","path":"objects/obejct_quadPatPat_example/obejct_quadPatPat_example.yy",},},
+    {"id":{"name":"object_quadPatPat_0","path":"objects/object_quadPatPat_0/object_quadPatPat_0.yy",},},
+    {"id":{"name":"object_quadPatPat_1","path":"objects/object_quadPatPat_1/object_quadPatPat_1.yy",},},
+    {"id":{"name":"object_quadPatPat_2","path":"objects/object_quadPatPat_2/object_quadPatPat_2.yy",},},
+    {"id":{"name":"room_quadPatPat_Example","path":"rooms/room_quadPatPat_Example/room_quadPatPat_Example.yy",},},
+    {"id":{"name":"quadPatPatEnd","path":"scripts/quadPatPatEnd/quadPatPatEnd.yy",},},
+    {"id":{"name":"quadPatPatSet","path":"scripts/quadPatPatSet/quadPatPatSet.yy",},},
+    {"id":{"name":"shader_quadPatPat","path":"shaders/shader_quadPatPat/shader_quadPatPat.yy",},},
+    {"id":{"name":"sprite_quadPatPat_0","path":"sprites/sprite_quadPatPat_0/sprite_quadPatPat_0.yy",},},
+    {"id":{"name":"sprite_quadPatPat_1","path":"sprites/sprite_quadPatPat_1/sprite_quadPatPat_1.yy",},},
+    {"id":{"name":"sprite_quadPatPat_2","path":"sprites/sprite_quadPatPat_2/sprite_quadPatPat_2.yy",},},
+    {"id":{"name":"sprite_quadPatPat_info","path":"sprites/sprite_quadPatPat_info/sprite_quadPatPat_info.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"room_quadPatPat_Example","path":"rooms/room_quadPatPat_Example/room_quadPatPat_Example.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
