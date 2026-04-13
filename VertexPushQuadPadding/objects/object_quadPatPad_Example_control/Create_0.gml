@@ -9,3 +9,5 @@ window_set_size(
 window_center();
 
 room_goto(room_quadPatPad_Example_1);
+
+

@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"object_quadPatPad_Example_3",
+  "%Name":"object_quadPatPad_Example_6",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"object_quadPatPad_Example_3",
+  "name":"object_quadPatPad_Example_6",
   "overriddenProperties":[],
   "parent":{
-    "name":"Example 3",
-    "path":"folders/quadPatPad - Examples/Example 3.yy",
+    "name":"Example 6",
+    "path":"folders/quadPatPad - Examples/Example 6.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_quadPatPad_Example_thingies",
-    "path":"sprites/sprite_quadPatPad_Example_thingies/sprite_quadPatPad_Example_thingies.yy",
+    "name":"sprite_quadPatPad_Example_player",
+    "path":"sprites/sprite_quadPatPad_Example_player/sprite_quadPatPad_Example_player.yy",
   },
   "spriteMaskId":null,
   "visible":true,

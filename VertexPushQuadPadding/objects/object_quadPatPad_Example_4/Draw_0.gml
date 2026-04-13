@@ -1,6 +1,6 @@
 /// @desc DRAW THINGS.
   
-var _padding = dsin(current_time * 0.1) * 12 + 10;
+var _padding = dsin(current_time * 0.05) * 16 + 10;
 
 
 quadPatPadSet({
@@ -18,10 +18,10 @@ quadPatPadSet({
   
 
   // Draw text.
-  var _ord = 32 + (floor(current_time / 250) mod 96);
-  draw_set_font(font_quadPatPad);
+  var _ord = 32 + (floor(current_time / 500) mod 96);
+  draw_set_font(font_quadPatPad_big);
   draw_set_halign(fa_center);
   draw_set_valign(fa_middle);
-  draw_text_transformed(_xs, _ys, chr(_ord), 2, 2, 0);
+  draw_text_transformed(_xs, _ys, chr(_ord), 1, 1, 0);
 }
 quadPatPadEnd();
