@@ -31,3 +31,12 @@ You may pass optional parameters with struct.
 ​// Draw stuff in-between, like `draw_self()` 
 ​quadPatPadEnd();
 ```
+The asset can't deal with rotations, are GameMaker bakes those into underlying vertex buffers, so there is no usable rotational information within vertex shader.
+
+
+### Considerations
+Alternative approach is to just disable automatic sprite cropping, and manually add padding around the sprite. This is manual work, but is more performant and robust than this asset.
+
+If you look at the shader, it does use a quite few calculations to achieve padding around the sprite without affecting visual size. That's why manual padding is more performant. This asset also has downside of requiring use of corner ID, and inability of supporting rotations.
+
+But it has dynamic padding size, which can also be used for cropping, so that's something.
